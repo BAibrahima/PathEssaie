@@ -95,15 +95,3 @@ void dijkstra_cpp(NumericMatrix edges){
 
 
 }
-
-/*** R
-library(Rcpp)
-
-#sourceCpp("~/Essaie/M2Path/src/Dijkstra.cpp")
-
-#matrice d'adjacence representant le poid de chaque arete
-edges <- matrix(data = c(0,4,8,0,0,4,0,2,5,0,8,2,0,5,9,0,5,5,0,4,0,0,9,4,0),5,5)
-edges
-dijkstra_cpp(edges)
-
-*/
